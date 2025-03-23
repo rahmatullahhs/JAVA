@@ -1,0 +1,72 @@
+jvm
+java virtual mechine
+memory archicature an structure
+jdk
+java development kit have two part
+jre = java run time environment
+jvm =java virtual mechine
+jit = just in time compilation
+
+jvm component
+1=class loader 
+2= execution Engine
+3= garbage collector
+4=steak
+5=heap
+
+variables
+syntex 
+type variableName=value;
+example
+int number =10;
+boolean status=true;
+String name = "RAhmat";
+String is a class so start with pascle case.//
+type = data type;
+char=A;
+
+data type
+
+Data Type	Description
+byte	Stores whole numbers from 
+	-128 to 127
+short	Stores whole numbers from 
+	-32,768 to 32,767
+int	Stores whole numbers from 
+	-2,147,483,648 to 2,147,483,647
+long	Stores whole numbers from 
+	-9,223,372,036,854,775,808 to 
+	9,223,372,036,854,775,807
+float	Stores fractional numbers. 
+	Sufficient for storing 6 to 7 decimal digits
+double	Stores fractional numbers.
+ 	Sufficient for storing 15 to 16 decimal digits
+boolean	Stores true or false values
+char	Stores a single character/letter or
+ 	ASCII values
+
+
+ Numeric Data Types
+ Name
+ Range
+ Storage Size
+ byte
+ short
+ int
+ long
+ float
+ double-27 to 27- 1(-128 to 127)-215 to 215- 1(-32768 to 32767)-231 to 231- 1(-2147483648 to 2147483647)-263 to 263- 1
+ (i.e.,-9223372036854775808 to 9223372036854775807)
+ Negative range: -3.4028235E + 38 to -1.4E- 45
+ Positive range: 1.4E- 45 to 3.4028235E + 38
+ Negative range: -1.7976931348623157E + 308 to -4.9E- 324
+ Positive range: 4.9E- 324 to 1.7976931348623157E + 308
+ Note
+ 8-bit signed
+ 16-bit signed
+ 32-bit signed
+ 64-bit signed
+ 32-bit IEEE 754
+ 64-bit IEEE 754
+ IEEE 754 is a standard approved by the Institute of Electrical and Electronics Engi
+""strin
