@@ -46,27 +46,9 @@ char	Stores a single character/letter or
  	ASCII values
 
 
- Numeric Data Types
- Name
- Range
- Storage Size
- byte
- short
- int
- long
- float
- double-27 to 27- 1(-128 to 127)-215 to 215- 1(-32768 to 32767)-231 to 231- 1(-2147483648 to 2147483647)-263 to 263- 1
- (i.e.,-9223372036854775808 to 9223372036854775807)
- Negative range: -3.4028235E + 38 to -1.4E- 45
- Positive range: 1.4E- 45 to 3.4028235E + 38
- Negative range: -1.7976931348623157E + 308 to -4.9E- 324
- Positive range: 4.9E- 324 to 1.7976931348623157E + 308
- Note
- 8-bit signed
- 16-bit signed
- 32-bit signed
- 64-bit signed
- 32-bit IEEE 754
- 64-bit IEEE 754
- IEEE 754 is a standard approved by the Institute of Electrical and Electronics Engi
-""strin
+pascle case = UserName
+we use in project Name ,class name
+camale case = userName
+we use in variable,method
+
+all caps
