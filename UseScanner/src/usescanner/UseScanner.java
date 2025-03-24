@@ -33,7 +33,8 @@ public class UseScanner {
                    System.out.print("answer "+result+"    ");
         
         
-        
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter Number");
         
         
         
