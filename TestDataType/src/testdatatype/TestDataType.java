@@ -4,6 +4,8 @@
  */
 package testdatatype;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Admin
@@ -15,6 +17,12 @@ public class TestDataType {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter name");
+        String name = input.nextLine();
+        System.out.println("My name " + name);
+
     }
-    
+
 }
