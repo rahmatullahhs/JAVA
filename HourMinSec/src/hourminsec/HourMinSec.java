@@ -45,8 +45,19 @@ public class HourMinSec {
 //                        m=rs/60
 //                                s=rs%60
         
-        
-        
+    
+
+
+System.out.printIn("enter number");
+int r=input.nextIn();
+float result=3.14f*(r*r);
+    System.out.println(result);
+
+
+
+
+
+
     }
 }
 
