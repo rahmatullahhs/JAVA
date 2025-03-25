@@ -16,19 +16,28 @@ public class CalculateTheCircle {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-   
-        Scanner in = new Scanner(System.in);
-     
-        System.out.printIn("Input");
-        int r = in.nextInt();
-        float Area = (float) 3.148(r*r); 
-  
         
-         System.out.print(Area );
-
-
         
-     
+        Scanner input= new input(System.in);
+        System.out.println("");
+        float result=Math.PI*Math.PI(a:radious,b:2);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
