@@ -25,16 +25,11 @@ public class UseScanner {
            System.out.print("enter 2st number");
         int number2=input.nextInt();
         
-//        int result=number1+number2;
-//                   System.out.print(result);
+        int result=number1+number2;
+                   System.out.print(result);
 
         
-         float result=(float)number1/number2;
-                   System.out.print("answer "+result+"    ");
         
-        
-        Scanner input=new Scanner(System.in);
-        System.out.println("Enter Number");
         
         
         
