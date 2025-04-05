@@ -6,17 +6,12 @@ package loan;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Admin
- */
+
 public class Loan {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+
         
         
         
