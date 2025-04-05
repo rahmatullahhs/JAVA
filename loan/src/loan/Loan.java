@@ -34,6 +34,9 @@ public class Loan {
         
          System.out.println("The monthly payment is $" + (int) monthlyPayment );
        System.out.println("The total payment is $" + (int)totalPayment);
+       
+       
+       
         
     }
     
