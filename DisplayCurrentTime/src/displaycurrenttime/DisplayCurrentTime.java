@@ -16,10 +16,10 @@ public class DisplayCurrentTime {
     public static void main(String[] args) {
         // TODO code application logic here
  
-        long time=System.currentTimeMillis();
+
         System.out.println("time");
         
-        long totalSecond
+    
     }
     
 }
