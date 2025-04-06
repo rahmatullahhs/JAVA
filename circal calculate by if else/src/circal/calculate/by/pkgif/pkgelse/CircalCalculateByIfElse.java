@@ -17,33 +17,26 @@ public class CircalCalculateByIfElse {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        
-          
-        Scanner s=new Scanner(System.in);
+
+        Scanner s = new Scanner(System.in);
         System.out.println("Enter your Radius");
-   double radius=s.nextDouble();
-   double area ;
-  if ( radius <= 0){  
-       System.out.println("Enter positive number");
-           radius=s.nextDouble() ;
-    area = Math.PI * radius * radius;
+        double radius = s.nextDouble();
+        double area;
+        int count=0;
+      boolean status= false;
+      while(status==false && count<=3){
+        if (radius <= 0) {
+            System.out.println("Enter positive number");
+            count++;
+            radius = s.nextDouble();
+            area = Math.PI * radius * radius;
+        status =false;
+        } else {
+            area = Math.PI * radius * radius;
+        status =true;
+        }}
+        System.out.println(area);
 
-  }
-  else{       
-      area = Math.PI * radius * radius;
-
- }
- System.out.println(area);
-        
-        
-        
-        
-        
-        
-        
-        
-        
     }
-    
+
 }
