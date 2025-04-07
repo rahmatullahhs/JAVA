@@ -4,9 +4,10 @@
  */
 package javaapplication15;
 
+import java.util.Scanner;
+
 /**
- *
- * @author Admin
+   * @author Admin
  */
 public class JavaApplication15 {
 
@@ -15,6 +16,22 @@ public class JavaApplication15 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        
+        
+                 Scanner s = new Scanner(System.in);
+
+        System.out.println("Enter a number to check even or odd");
+        int number = s.nextInt();
+       
+        if(number % 2 == 0){
+            System.out.println(number + " is the even number");
+        }
+        
+        else{
+            System.out.println(number + " is the odd number");
+        
+        }
     }
     
 }
