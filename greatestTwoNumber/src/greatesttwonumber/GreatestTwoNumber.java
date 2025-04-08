@@ -49,7 +49,7 @@ public class GreatestTwoNumber {
 //            default:
 //                System.out.println("input1 big");
 //        }
-//        
+        
         
         
         
@@ -72,8 +72,7 @@ public class GreatestTwoNumber {
 //            break;
 //        default:    System.out.print("Both are equal.");
 //        
-//        
-//        
+        
         
         
         
@@ -93,14 +92,6 @@ public class GreatestTwoNumber {
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
        
 //        System.out.println("enter your first number");
 //        int input1 = s.nextInt();
@@ -117,21 +108,7 @@ public class GreatestTwoNumber {
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+   
         
     }
 
