@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Admin
  */
-public class JavaApplication13 {
+public class LeapYearFins1 {
 
     /**
      * @param args the command line arguments
