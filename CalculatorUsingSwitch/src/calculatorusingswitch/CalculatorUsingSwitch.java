@@ -12,11 +12,11 @@ public class CalculatorUsingSwitch {
         System.out.println("Enter 2nd num");
         double num2 = s.nextDouble();
         System.out.println("input any action like as + - * / ");
-        String act = s.next();
+        String userChoice = s.next();
 
         double answer = 0;
 
-        switch (act) {
+        switch (userChoice) {
             case "+":
                 answer = num1 + num2;
                 break;
@@ -33,7 +33,7 @@ public class CalculatorUsingSwitch {
                 answer = num1 * num2;
                 break;
             default:
-                System.out.println("follow what i say");
+                System.out.println("invalid ");
         }
         System.out.println(answer);
 
