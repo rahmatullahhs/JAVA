@@ -52,8 +52,9 @@ public class ForLoop {
 //              
 //                   
 //        }  counter++;
-       long userinput=s.nextLong();
-        for(long i = 1; i <=500000000 ; i++){
+
+     int userInput =s.nextInt();
+        for(int i = 1; i <=userInput ; i++){
             System.out.println(i + "You have been hacked");
         }
         
