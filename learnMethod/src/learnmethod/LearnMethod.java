@@ -6,27 +6,37 @@ public class LearnMethod {
 
     public static void main(String[] args) {
 
-//        System.out.println(doSum(10, 50));
+        System.out.println(doSum(10, 50));
         Scanner s = new Scanner(System.in);
 
-//        int taka=s.nextInt();
-//        float faka=s.nextFloat();
-//        float result=doSum(taka, faka);
-//        System.out.println(result + " money");
+        int taka = s.nextInt();
+        float faka = s.nextFloat();
+        float result = doSum(taka, faka);
+        System.out.println(result + " money");
         int input = s.nextInt();
-        System.out.println(doPrime(input));
-//String result=doPrime(input);
+       
+        String outPut = doPrime(input);
+        System.out.println(outPut);
+        String Result = findOddEven(input);
+        System.out.println(Result);
 
-//        System.out.println(FindOddEven(input));
+        
+        
+        
     }
 
+    
+    
+    
     public static float doSum(int num1, float num2) {
-        float result = (num1 + num2);
-        return result;
+        float ans = (num1 + num2);
+        return ans;
     }
 
+    
+    
     public static String doPrime(int input) {
-        String result = " ";
+        String outPut = " ";
         int count = 0;
         for (int i = 1; i <= input; i++) {
 
@@ -36,13 +46,14 @@ public class LearnMethod {
         }
         if (count == 2) {
 
-            result = (input + "is prime number");
+            outPut = (input + "is prime number");
         } else {
-            result = (input + "is not a prime number");
+            outPut = (input + "is not a prime number");
         }
-        return result;
+        return outPut;
     }
 
+    
     
     public static String findOddEven(int input) {
         String result = " ";
@@ -55,31 +66,4 @@ public class LearnMethod {
         return result;
     }
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }

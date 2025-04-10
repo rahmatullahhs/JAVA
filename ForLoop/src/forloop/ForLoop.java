@@ -52,7 +52,7 @@ public class ForLoop {
 //        }  counter++;
 
      int userInput =s.nextInt();
-        for(int i = 1; i <=userInput ; i++){
+        for(int i = 1; i <userInput ; i++){
             System.out.println(i + "You have been hacked");
         }
         
