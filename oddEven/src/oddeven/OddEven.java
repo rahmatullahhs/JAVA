@@ -19,104 +19,14 @@ public class OddEven {
         // TODO code application logic here
 
         Scanner s = new Scanner(System.in);
-        
-        
-        
-        
+
         int input = s.nextInt();
         if (input % 2 == 0) {
             System.out.println("odd");
         } else {
             System.out.println("even");
-
         }
 
-//           int input = s.nextInt();
-//        if (input % 2 == 0) {
-//            System.out.println("odd");
-//        } else {
-//            System.out.println("even");
-//
-//        }
-//        
-//           int input = s.nextInt();
-//        if (input % 2 == 0) {
-//            System.out.println("odd");
-//        } else {
-//            System.out.println("even");
-//
-//        }
-//        
-//        
-//        
-//           int input = s.nextInt();
-//        if (input % 2 == 0) {
-//            System.out.println("odd");
-//        } else {
-//            System.out.println("even");
-//
-//        }
-//        
-//        
-//        
-//           int input = s.nextInt();
-//        if (input % 2 == 0) {
-//            System.out.println("odd");
-//        } else {
-//            System.out.println("even");
-//
-//        }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     }
 
 }
