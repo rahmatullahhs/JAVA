@@ -11,53 +11,49 @@ public class ForLoop {
 
 //        System.out.println("enter number");
 //        int input = s.nextInt();
-//        int count = 0;
 //
+//        int count = 0;
 //        for (int i = 1; i <= input; i++) {
 //            if (input % i == 0) {
 //                count++;
 //            }
 //        }
-//
 //        if (count == 2) {
 //            System.out.println(input + " prime");
 //        } else {
 //            System.out.println("not prime");
 //        }
-
-//        int targetValue=50;
-//        int counter   =1;
-//        
-//        while (counter<=targetValue) {
-//            if (counter%3==0 && counter%5==0) {
-//                
+////fix value
+//        int targetValue = 50;
+//        int counter = 1;
+//
+//        while (counter <= targetValue) {
+//            if (counter % 3 == 0 && counter % 5 == 0) {
+//
 //                counter++;
 //                continue;
-//         }
+//            }
 //            System.out.println(counter);
 //            counter++;
-//            
+//
 //        }
-        
-        
-//        int counter = 0;
-             //          while (counter<targetValue) { 
-//              
-//              if (counter<=targetValue) {
-//                  counter++;
-//                  System.out.println(counter);
-//              }
-//              
-//                   
-//        }  counter++;
+//
+//        int counterr = 0;
+//        while (counterr < targetValue) {
+//
+//            if (counterr <= targetValue) {
+//                counter++;
+//                System.out.println(counterr);
+//            }
+//
+//        }
+//        counter++;
 
-     int userInput =s.nextInt();
-        for(int i = 1; i <userInput ; i++){
+        int userInput = s.nextInt();
+        for (int i = 1; i <= userInput; i++) {
             System.out.println(i + "You have been hacked");
         }
-        
-    
-        
+
     }
 
 }
