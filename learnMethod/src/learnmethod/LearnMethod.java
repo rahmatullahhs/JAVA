@@ -19,10 +19,7 @@ public class LearnMethod {
         System.out.println(outPut);
         String Result = findOddEven(input);
         System.out.println(Result);
-
-        
-        
-        
+ 
     }
 
     
@@ -66,4 +63,7 @@ public class LearnMethod {
         return result;
     }
 
+    
+    
+    
 }
