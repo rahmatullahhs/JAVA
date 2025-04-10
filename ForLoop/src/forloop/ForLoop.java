@@ -41,9 +41,7 @@ public class ForLoop {
         
         
 //        int counter = 0;
-//          int targetValue=5;
-//          
-//          while (counter<targetValue) { 
+             //          while (counter<targetValue) { 
 //              
 //              if (counter<=targetValue) {
 //                  counter++;
