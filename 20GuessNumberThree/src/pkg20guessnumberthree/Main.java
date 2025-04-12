@@ -5,29 +5,29 @@ public class Main {
 
         
         
-        Scanner s = new Scanner(System.in);
-        int randomNumber = (int) (Math.random() * 10);
-        int userInput = s.nextInt();
-        int count = 1;
-        while (count < 3) {
-
-            if (randomNumber == userInput) {
-                System.out.println("win");
-                break;
-            } else if (randomNumber < userInput) {
-                System.out.println("try again");
-
-                userInput = s.nextInt();
-            } else if (randomNumber > userInput) {
-                System.out.println("try again");
-
-                userInput = s.nextInt();
-            }
-            if (count == 2) {
-                System.out.println("lose");
-            }
-            count++;
-        }
+//        Scanner s = new Scanner(System.in);
+//        int randomNumber = (int) (Math.random() * 10);
+//        int userInput = s.nextInt();
+//        int count = 1;
+//        while (count < 3) {
+//
+//            if (randomNumber == userInput) {
+//                System.out.println("win");
+//                break;
+//            } else if (randomNumber < userInput) {
+//                System.out.println("try again");
+//
+//                userInput = s.nextInt();
+//            } else if (randomNumber > userInput) {
+//                System.out.println("try again");
+//
+//                userInput = s.nextInt();
+//            }
+//            if (count == 2) {
+//                System.out.println("lose");
+//            }
+//            count++;
+//        }
 
         
 //        factorial
@@ -50,6 +50,19 @@ public class Main {
 //
 //        }
 //        System.out.println("answer is " + factorial);
+
+
+
+
+boolean flag = true;
+        System.out.println(flag);
+
+
+
+
+
+
+
     }
 
 }
