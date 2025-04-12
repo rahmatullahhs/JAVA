@@ -23,7 +23,8 @@ public class ForLoop {
 //        } else {
 //            System.out.println("not prime");
 //        }
-////fix value
+
+//fix value
 //        int targetValue = 50;
 //        int counter = 1;
 //

@@ -15,6 +15,7 @@ public class UseScanner {
        
     
         Scanner s=new Scanner(System.in);
+        
 //        System.out.print("enter 1st number");
 //        int number1=input.nextInt();
 //           System.out.print("enter 2st number");
