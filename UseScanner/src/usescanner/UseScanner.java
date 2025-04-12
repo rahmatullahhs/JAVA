@@ -6,30 +6,29 @@ package usescanner;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Admin
- */
+
 public class UseScanner {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+    
        
     
-        Scanner input=new Scanner(System.in);
-        System.out.print("enter 1st number");
-        int number1=input.nextInt();
-           System.out.print("enter 2st number");
-        int number2=input.nextInt();
-        
-        int result=number1+number2;
-                   System.out.print(result);
+        Scanner s=new Scanner(System.in);
+//        System.out.print("enter 1st number");
+//        int number1=input.nextInt();
+//           System.out.print("enter 2st number");
+//        int number2=input.nextInt();
+//        
+//        int result=number1+number2;
+//                   System.out.print(result);
 
+        int input=s.nextInt();
+       for (int i=1; i<=input ; i++ ){
         
+        System.out.println(i);
         
+        }
         
         
         
