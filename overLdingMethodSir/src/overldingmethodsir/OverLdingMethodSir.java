@@ -28,7 +28,7 @@ public class OverLdingMethodSir {
         sum(myArray);
 
     }
-//---------------------------------------
+//--------------------------------------
     public static int sum() {
 
         return 10 + 20;
