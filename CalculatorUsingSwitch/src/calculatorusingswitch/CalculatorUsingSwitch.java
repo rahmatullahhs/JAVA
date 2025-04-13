@@ -35,8 +35,7 @@ public class CalculatorUsingSwitch {
             default:
                 System.out.println("invalid ");
         }
-        System.out.println(answer);
-
+        System.out.println(answer
     }
 
 }
