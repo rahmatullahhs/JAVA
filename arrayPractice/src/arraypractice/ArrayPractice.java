@@ -39,7 +39,7 @@ public class ArrayPractice {
 //        
 //         System.out.println(Arrays.toString(list)+ "\n");
          
-         
+//         index=0 but name=1
          for(int index=0; index<names.length; index++){
              System.out.println("My name is " + names[index]+ "mark " +marks[index] );
          
