@@ -35,7 +35,12 @@
 /ForLoop/build/
 /learnMethod/nbproject/private/
 /learnMethod/build/
+<<<<<<< HEAD
 /overLodingMethod/nbproject/private/
 /overLdingMethodSir/nbproject/private/
 /overLdingMethodSir/build/
 /overLodingMethod/build/
+=======
+/JavaApplication13/dist/
+/20GuessNumberThree/dist/
+>>>>>>> 01d74133c0fe65f90aea1423dd64d709af1da6c5

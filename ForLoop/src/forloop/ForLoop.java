@@ -23,8 +23,12 @@ public class ForLoop {
 //        } else {
 //            System.out.println("not prime");
 //        }
+<<<<<<< HEAD
 
 //fix value
+=======
+        ////fix value
+>>>>>>> 01d74133c0fe65f90aea1423dd64d709af1da6c5
 //        int targetValue = 50;
 //        int counter = 1;
 //
@@ -52,7 +56,7 @@ public class ForLoop {
 
         int userInput = s.nextInt();
         for (int i = 1; i <= userInput; i++) {
-            System.out.println(i + "You have been hacked");
+            System.out.println(i + " do it again");
         }
 
     }
