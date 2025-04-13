@@ -2,14 +2,15 @@
 package arraypractice;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class ArrayPractice {
 
 
     public static void main(String[] args) {
         
-        
-//        String[] names=new String[14];
+        Scanner s =new Scanner(System.in);
+//        String[] names=new String[14]; (names array)
 //        
 //        int[]marks=new int[14];
 //        
@@ -24,9 +25,9 @@ public class ArrayPractice {
 //       ------------------------- 
         
          
-      String[] names={"Rahmat","Easin","Parvaz","Rakib","sadier"};
-      
-        int[]marks={44,55,66,77,88,99};
+//      String[] names={"Rahmat","Easin","Parvaz","Rakib","sadier"};
+//      
+//        int[]marks={44,55,66,77,88,99};
 //        
 //        System.out.println("My name is " + Arrays.toString(names).concat(Arrays.toString(marks)));
 //        
@@ -40,26 +41,46 @@ public class ArrayPractice {
 //         System.out.println(Arrays.toString(list)+ "\n");
          
 //         index=0 but name=1
-         for(int index=0; index<names.length; index++){
-             System.out.println("My name is " + names[index]+ "mark " +marks[index] );
+//         for(int index=0; index<names.length; index++){
+//             System.out.println("My name is " + names[index]+ "mark " +marks[index] );
          
              
-             for ( ){
-             
-             };
-             
-             
-             
-             
-         }
+          System.out.println("Enter count");
+          int n =s.nextInt();
+            String[] list = new String[n];
+            int[] marks = new int[n];
+
+          
+          
          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             }
+             
      
-        
 //        -----------
     }
-    
-    
-    
-
-//   --------------- 
-}
