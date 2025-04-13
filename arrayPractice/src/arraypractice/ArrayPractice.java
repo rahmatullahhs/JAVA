@@ -45,22 +45,52 @@ public class ArrayPractice {
 //             System.out.println("My name is " + names[index]+ "mark " +marks[index] );
          
              
-          System.out.println("Enter count");
-          int n =s.nextInt();
-            String[] list = new String[n];
-            int[] marks = new int[n];
-
-          
-          
+//          System.out.println("Enter count");
+//          int n =s.nextInt();
+//            String[] names = new String[n];
+//            int[] marks = new int[n];
+//
+//          
+//          System.out.println("Enter Name");
+//     
+//         
+//              System.out.println("Enter Marks");
+//        int Marks=s.nextInt();
          
 
 
+String[] names={"Rahmat","Easin","Parvaz","Rakib","sadier"};
+
+ int[] passwords={111,222,333,444,555,666};
+
+String userName=s.next();
+
+        for (int i = 0; i < names.length; i++) {
+            
+            if (userName.equalsIgnoreCase(names[i])) {
+              
+                System.out.println("Enter your password");
+                
+             int password;
+                password = s.nextInt();
+                int index = i;
+
+          
+                if (password == passwords[index]) {
+                    System.out.println(" Welcome"  + userName);
+                }
+                else {   
+                    System.out.println("Password is incorrect");
+                }
+                   
+                }
+                break;
 
 
+            }
+      
 
-
-
-
+            }
 
 
 
