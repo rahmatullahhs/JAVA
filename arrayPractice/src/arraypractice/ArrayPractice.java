@@ -43,39 +43,23 @@ public class ArrayPractice {
          for(int index=0; index<names.length; index++){
              System.out.println("My name is " + names[index]+ "mark " +marks[index] );
          
+             
+             for ( ){
+             
+             };
+             
+             
+             
+             
          }
          
-         
-         
-         
-         
-         
-         
+     
         
 //        -----------
     }
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
 //   --------------- 
 }
