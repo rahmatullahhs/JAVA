@@ -14,12 +14,14 @@ public class MaxMin5Number {
         int size=s.nextInt();
         
         int[]numbers=new int[size];
+        System.out.println(Arrays.toString(numbers);
         
+       
+          
 //        int maxNumber= 0;
 //        int minNumber=9999;
         
-        int maxNumber= numbers[0];
-        int minNumber=numbers[0];
+        
         
         for(int index=0;index<size;index++){
         
@@ -29,6 +31,10 @@ public class MaxMin5Number {
         }
         
         System.out.println(Arrays.toString(numbers));
+      
+        
+        int maxNumber= numbers[0];
+        int minNumber=numbers[0];
         
         for(int number :numbers ){
         
@@ -47,7 +53,39 @@ public class MaxMin5Number {
         
         
         
-        
+      
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
         
         
         
