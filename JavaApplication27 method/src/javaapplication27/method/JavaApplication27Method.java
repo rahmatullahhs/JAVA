@@ -2,17 +2,17 @@
 package javaapplication27.method;
 
 import java.util.Arrays;
-import java.util.Scanner;
+
 
 public class JavaApplication27Method {
 
 
     public static void main(String[] args) {
    
-       Scanner s =new Scanner(System.in);
+    
         
         System.out.println("limit");
-        int size=s.nextInt(); 
+    
         
         
         
@@ -23,7 +23,7 @@ public class JavaApplication27Method {
     
     
     
-     public static  String MaxMin( String numbers) {
+     public static  String MaxMin( int size) {
    
        
         
