@@ -1,35 +1,76 @@
 
 package pkg2darray;
 
-import java.util.Arrays;
+
+import java.util.Scanner;
 
 
 public class Main {
 
 
     public static void main(String[] args) {
-
-        int[][] userArrays=new int[3][3];       
+        
+        Scanner s =new Scanner(System.in);
+        System.out.println("Enter row size");
+        int rowSize=s.nextInt();
+        
+          System.out.println("Enter col size");
+           int colSize=s.nextInt();
+           
+                   int[][] userArrays=new int[rowSize][colSize];       
  
-        userArrays[0][0]=10;
-        userArrays[0][1]=50;
-        userArrays[0][2]=30;
+                   for(int row=0; row<userArrays.length; rowSize++ ){
+                    
+                       for (int col =0;col<userArrays[rowSize].length;colSize++){
+                           System.out.println("enter value for row "+(rowSize+1)+"colmon"+(colSize=1)+":" );
+                   
+                   userArrays[rowSize][colSize]=s.nextInt();
+                       }
         
-        userArrays[1][0]=11;
-        userArrays[1][1]=40;
-        userArrays[1][2]=60;
-        
-         userArrays[2][0]= 12;
-        userArrays[2][1]=33;
-        userArrays[2][2]=22;
-      
-       
-        System.out.println(Arrays.deepToString(userArrays));
+                   }
+                   
+      System.out.println("Your array is: ");
         
         
+        for(int row=0; row<userArrays.length;row++ ){
+        
+        for(int col=0; col<userArrays[row].length;col++){
+              System.out.print(userArrays[row][col] + " ");
+             
+        }
+            System.out.println("\n");
         }
         
-    }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        }
+        
+        
+        
+        
+        
+        
+        
+    
     
 
         
@@ -48,6 +89,6 @@ public class Main {
         
         
         
-    }
+    
     
 }
