@@ -7,19 +7,21 @@ public class Fibonacci {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter your limit: ");
+        System.out.print("Enter number: ");
         int input = scan.nextInt();
 
-        int n1 = 0;
-        int n2 = 1;
+        int number1 = 0;
+        int number2 = 1;
+        int number3=0;
+        System.out.println(number1);
+        System.out.println(number2);
 
-        System.out.print("Your fibonacci series is: ");
-
-        for (int i = 1; i <= input; i++) {
-            int n3 = n1 + n2;
-            System.out.print(n1 + ", ");
-            n1 = n2;
-            n2 = n3;
+        for (int i = 3; i <= input; i++) {
+             number3 = number1 + number2;
+            System.out.println(number3);
+            
+            number1 = number2;
+            number2 = number3;
 
         }
 

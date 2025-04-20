@@ -12,16 +12,19 @@ public class MaxNumber {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Enter count: ");
-        int limit = scan.nextInt();
-        int[] numbers = new int[limit];
+        System.out.print("Enter size: ");
 
-        for (int index = 0; index < limit; index++) {
+//        array for collect input size
+        int size = scan.nextInt();
+        int[] numbers = new int[size];
+
+        for (int index = 0; index < size; index++) {
+//            for collect user input numbers 
+            System.out.println("enter numbers");
             int number = scan.nextInt();
-
             numbers[index] = number;
         }
-
+//variable for compare
         int maxNumber = numbers[0];
         int minNumber = numbers[0];
 
