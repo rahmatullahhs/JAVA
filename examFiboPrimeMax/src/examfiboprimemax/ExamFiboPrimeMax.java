@@ -12,20 +12,20 @@ public class ExamFiboPrimeMax {
         System.out.print("input number: ");
         int input = s.nextInt();
 
-        int count = 0;
+        int round = 0;
 
         for (int i = 1; i <= input; i++) {
             if (input % i == 0) {
-                count++;
+                round++;
             }
         }
 
-        if (count == 2) {
+        if (round == 2) {
             System.out.println(input + " prime.");
         } else {
             System.out.println(input + " not prime.");
         }
-
+       
     }
 
 }
