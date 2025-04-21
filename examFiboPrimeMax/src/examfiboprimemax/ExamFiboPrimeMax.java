@@ -1,6 +1,5 @@
 package examfiboprimemax;
 
-
 import java.util.Scanner;
 
 public class ExamFiboPrimeMax {
@@ -27,5 +26,4 @@ public class ExamFiboPrimeMax {
         }
        
     }
-
 }
