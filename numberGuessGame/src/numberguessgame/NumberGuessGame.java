@@ -27,11 +27,8 @@ public class NumberGuessGame {
             }if(count==2){
                 System.out.println("lose");
             }
-            count++;
-        }
-        
-
-        
+            count++; }
+  
     }
     
 }
