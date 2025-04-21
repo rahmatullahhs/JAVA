@@ -14,9 +14,11 @@ public class ExamDiscountPrice {
      double discountPrice = userPay -(userPay * 0.05);
         if (userPay > 200 ) {
         
-          System.out.println("Actual price :" + userPay +" Discount price:" + discountPrice);
+          System.out.println("Actual price :" + userPay);
+            System.out.println("Discount price" + discountPrice);
         }
-        else{  System.out.println("Actual price :" + userPay +" no price: 00");
+        else{  System.out.println("Actual price :" + userPay);
+        System.out.println("Discount price" + discountPrice);
         }
       
      

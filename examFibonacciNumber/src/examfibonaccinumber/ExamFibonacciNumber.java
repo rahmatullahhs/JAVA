@@ -6,9 +6,9 @@ public class ExamFibonacciNumber {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.print("Enter number: ");
-        int input = scan.nextInt();
+        int input = s.nextInt();
 
         int number1 = 0;
         int number2 = 1;

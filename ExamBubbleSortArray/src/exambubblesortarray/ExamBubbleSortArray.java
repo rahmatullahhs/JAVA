@@ -32,7 +32,7 @@ public class ExamBubbleSortArray {
                 }
             }
         }
-        System.out.println("bubble sorting: " + Arrays.toString(myArray));
+        System.out.println("Bubble Sorting: " + Arrays.toString(myArray));
     }
 
 }
