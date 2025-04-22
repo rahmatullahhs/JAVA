@@ -27,7 +27,7 @@ public class VowelConsonent {
 //        } else {
 //            System.out.println("your letter is consonent");
 //        }
-//        
+     
         
    
 
