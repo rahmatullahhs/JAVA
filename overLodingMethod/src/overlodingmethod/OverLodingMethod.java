@@ -3,7 +3,7 @@ package overlodingmethod;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class OverLodingMethod {
+public class OverLodingMethod { 
 
     public static void main(String[] args) {
 
