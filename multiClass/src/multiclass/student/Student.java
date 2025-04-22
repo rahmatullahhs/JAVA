@@ -26,17 +26,13 @@ public class Student {
         this.contact = contact;
         this.Address = Address;
     }
-    
-    
-    public String getName(){
-    return name;
+
+    public String getName() {
+        return name;
     }
-    
-    public void setName(){
-        if (name.length()>=6 && name.length()<=10) {
-            this.name = name;
-        }
-  
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {
@@ -72,7 +68,5 @@ public class Student {
     }
     
     
-    
-    
-    
+   
 }
