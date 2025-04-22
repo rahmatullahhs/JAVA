@@ -1,14 +1,12 @@
-
 package multiclass.student;
 
-
 public class Student {
-    
-   private String name;
-   private  String email;
-    private  int id;
-    private  double contact;
-    private  String Address;
+
+    private String name;
+    private String email;
+    private int id;
+    private double contact;
+    private String address;
 
     public Student() {
     }
@@ -24,7 +22,7 @@ public class Student {
         this.email = email;
         this.id = id;
         this.contact = contact;
-        this.Address = Address;
+        this.address = Address;
     }
 
     public String getName() {
@@ -32,7 +30,12 @@ public class Student {
     }
 
     public void setName(String name) {
-        this.name = name;
+        if (name.length() >= 6 && name.length() <= 20) {
+            this.name = name;
+        } else {
+            this.name = "Invalid name";
+            System.err.println("Name must be 6-20 charecters");
+        }
     }
 
     public String getEmail() {
@@ -60,13 +63,20 @@ public class Student {
     }
 
     public String getAddress() {
-        return Address;
+        return address;
     }
 
     public void setAddress(String Address) {
-        this.Address = Address;
+        this.address = Address;
     }
-    
-    
-   
+
+    public void getStudentDetails() {
+        System.out.println("Name: " + this.name + "\n"
+                + "Email: " + this.email + "\n"
+                + "ID: " + this.id + "\n"
+                + "Contact: " + this.contact + "\n"
+                + "Address: " + this.address + "\n"
+        );
+    }
+
 }
