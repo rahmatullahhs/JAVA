@@ -20,12 +20,8 @@ public class Exam {
     
     public void getExamDtails(){
     
-        System.out.println("Subject name: "+ this.Subject+"\n mark :" + this.Mark+ "\n attendance:" + this.Attendence);
-    
-    
-    
-    
-    }
+        System.out.println("Subject name: "+ this.Subject+"\n mark :" + this.Mark+ "\n attendance:" + this.Attendence+"\n");
+     }
     
     
     
