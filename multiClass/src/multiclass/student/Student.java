@@ -1,10 +1,8 @@
 package multiclass.student;
 
-<<<<<<< Updated upstream
 public class Student{
-=======
+
 import multiclass.student.exam.Exam;
->>>>>>> Stashed changes
 
 public class Student extends Exam {
 
@@ -14,16 +12,16 @@ public class Student extends Exam {
     double contact;
     private String address;
 
-<<<<<<< Updated upstream
+
     public Student() {
     }
 
 
 
     public Student(String name, String email, int id, double contact, String Address) {
-=======
+
     public Student(String name, String email, int id, double contact, String address) {
->>>>>>> Stashed changes
+
         this.name = name;
         this.email = email;
         this.id = id;
