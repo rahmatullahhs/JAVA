@@ -1,78 +1,86 @@
 package multiclass.student;
 
+<<<<<<< Updated upstream
 public class Student{
+=======
+import multiclass.student.exam.Exam;
+>>>>>>> Stashed changes
 
-    private String name;
-    private String email;
+public class Student extends Exam {
+
+    public String name;
+    protected String email;
     private int id;
-    private double contact;
+    double contact;
     private String address;
 
+<<<<<<< Updated upstream
     public Student() {
     }
 
 
 
     public Student(String name, String email, int id, double contact, String Address) {
+=======
+    public Student(String name, String email, int id, double contact, String address) {
+>>>>>>> Stashed changes
         this.name = name;
         this.email = email;
         this.id = id;
         this.contact = contact;
-        this.address = Address;
+        this.address = address;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        if (name.length() >= 6 && name.length() <= 20) {
-            this.name = name;
-        } else {
-            this.name = "Invalid name";
-            System.err.println("Name must be 6-20 charecters");
-        }
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
+    public Student(String name, String email, int id, double contact, String address, String Subject, int Mark, String Attendence) {
+        super(Subject, Mark, Attendence);
+        this.name = name;
         this.email = email;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
         this.id = id;
-    }
-
-    public double getContact() {
-        return contact;
-    }
-
-    public void setContact(double contact) {
         this.contact = contact;
+        this.address = address;
     }
 
-    public String getAddress() {
-        return address;
+    @Override
+    public void getExamDtails() {
+        super.getExamDtails(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+   }
+
+    @Override
+    public void setAttendence(String Attendence) {
+        super.setAttendence(Attendence); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
     }
 
-    public void setAddress(String Address) {
-        this.address = Address;
+    @Override
+    public void setSubject(String Subject) {
+        super.setSubject(Subject); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
     }
 
-    public void getStudentDetails() {
-        System.out.println("Name: " + this.name + "\n"
-                + "Email: " + this.email + "\n"
-                + "ID: " + this.id + "\n"
-                + "Contact: " + this.contact + "\n"
-                + "Address: " + this.address + "\n"
-        );
+    @Override
+    public void setMark(int Mark) {
+        super.setMark(Mark); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
     }
 
+   public void getStudentDetails(){
+       System.out.println("name:" + this.name+ "email:"+this.email+"id: "+this.id+"contract; "+
+               this.contact+"address:"+this.address);
+   
+   }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
