@@ -21,7 +21,7 @@ public class CircalCalculateByIfElse {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter your Radius");
         double radius = s.nextDouble();
-        double area;
+        double area=0;
         int count=0;
       boolean status= false;
       while(status==false && count<=3){
