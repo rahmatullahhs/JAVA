@@ -14,6 +14,8 @@ public class TimesTable {
 //            System.out.println(userInput + "*" + i + "=" + result);
 //
 //        }
+
+
         int sum = 0;
 
         for (;;) {
@@ -24,10 +26,10 @@ public class TimesTable {
                 System.out.println("enter positive intger");
                 break;
             }
-            sum += userInput;
+            else{ sum += userInput;}
 
         }
-        System.out.println(sum+"reza");
+        System.out.println(sum +" reza ");
 
     }
 
