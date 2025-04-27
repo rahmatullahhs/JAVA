@@ -11,7 +11,7 @@ public class LearnFilClass {
     
     public static void main(String[] args) throws FileNotFoundException {
 
-        File f = new File("c://Users//Admin//Desktop//java.txt");
+        File f = new File("c://Users//Admin//Desktop//even.txt");
         
        
         
