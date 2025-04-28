@@ -15,11 +15,9 @@ public class LearnFilClass {
         
        
         
-        PrintWriter pw =new PrintWriter(f);
-        
-        pw.print("My brain is not Braining");
-        
-        pw.close();
+        try (PrintWriter pw = new PrintWriter(f)) {
+            pw.print("My brain is not Braining");
+        }
         
         
         
