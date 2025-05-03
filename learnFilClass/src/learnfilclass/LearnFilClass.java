@@ -3,22 +3,32 @@ package learnfilclass;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 
 public class LearnFilClass {
 
-    public static void main(String[] args) throws FileNotFoundException {
+ 
+    public static void main(String[] args)  {
 
-        File f = new File("c://Users//Admin//Desktop//even.txt");
-        java.io.File file = new java.io.File("scores.txt");
-
-        if (file.exists()) {
-            System.out.println("File already exists");
-            System.exit(1);
+       
+        try {
+            PrintWriter pw = new PrintWriter(f);
+            pw.append("a");
+            pw.print("ryhfjhgsjmgjh");
+            
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(LearnFilClass.class.getName()).log(Level.SEVERE, null, ex);
         }
-        try (PrintWriter pw = new PrintWriter(f)) {
-            pw.print("My brain is not Braining");
-        }
-
-    }
-
+        
+        
+       
+        
+        
+        
+        
+        
+        
+}
 }
