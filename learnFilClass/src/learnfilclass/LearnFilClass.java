@@ -13,7 +13,7 @@ public class LearnFilClass {
        
    
         try (PrintWriter pw = new PrintWriter("C:\\Users\\Admin\\Desktop\\lelo.txt")) {
-            pw.print("without try case but throw case");
+            pw.print("without try case but throw");
         }
  
  }
