@@ -39,7 +39,14 @@ public class Studnts {
     public void setEmail(String Email) {
         this.Email = Email;
     }
-   
+
+    @Override
+    public String toString() {
+        return (" \n name=" + name + ", \n Email=" + Email + ", \n id=" + id );
+    }
+
+ 
+    
    
     
     
