@@ -18,7 +18,7 @@ public class Main {
 
         for (int row = 0; row < myArrays.length; row++) {
 
-            for (int column = 0; column < myArrays[row].length; column++) {
+            for (int column = 0;column < myArrays[row].length; column++) {
                 System.out.print("Enter value for row " + (row + 1) + " x column " + (column + 1) + ": ");
                 int userInput = scan.nextInt();
                 myArrays[row][column] = userInput;
