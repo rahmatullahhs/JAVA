@@ -26,6 +26,7 @@ public class desing extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jFrame1 = new javax.swing.JFrame();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
@@ -36,21 +37,32 @@ public class desing extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
-        jTabbedPane1 = new javax.swing.JTabbedPane();
-        jTabbedPane2 = new javax.swing.JTabbedPane();
-        jLabel2 = new javax.swing.JLabel();
-        jTabbedPane3 = new javax.swing.JTabbedPane();
-        jLabel3 = new javax.swing.JLabel();
+        tabhome = new javax.swing.JTabbedPane();
         jTabbedPane4 = new javax.swing.JTabbedPane();
+        jLabel2 = new javax.swing.JLabel();
+        jTabbedPane9 = new javax.swing.JTabbedPane();
+        jLabel3 = new javax.swing.JLabel();
+        jTabbedPane10 = new javax.swing.JTabbedPane();
         jLabel4 = new javax.swing.JLabel();
-        jTabbedPane5 = new javax.swing.JTabbedPane();
+        jTabbedPane11 = new javax.swing.JTabbedPane();
         jLabel5 = new javax.swing.JLabel();
-        jTabbedPane6 = new javax.swing.JTabbedPane();
+        jTabbedPane12 = new javax.swing.JTabbedPane();
         jLabel6 = new javax.swing.JLabel();
-        jTabbedPane7 = new javax.swing.JTabbedPane();
+        jTabbedPane13 = new javax.swing.JTabbedPane();
         jLabel7 = new javax.swing.JLabel();
-        jTabbedPane8 = new javax.swing.JTabbedPane();
+        jTabbedPane14 = new javax.swing.JTabbedPane();
         jLabel8 = new javax.swing.JLabel();
+
+        javax.swing.GroupLayout jFrame1Layout = new javax.swing.GroupLayout(jFrame1.getContentPane());
+        jFrame1.getContentPane().setLayout(jFrame1Layout);
+        jFrame1Layout.setHorizontalGroup(
+            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        jFrame1Layout.setVerticalGroup(
+            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -65,40 +77,98 @@ public class desing extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 840, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 836, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 14, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 840, 50));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 850, 80));
 
         jPanel2.setBackground(new java.awt.Color(204, 204, 255));
 
-        jButton1.setText("jButton1");
+        jButton1.setBackground(new java.awt.Color(0, 255, 255));
+        jButton1.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 14)); // NOI18N
+        jButton1.setText("Product");
+        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton1MouseClicked(evt);
+            }
+        });
 
-        jButton2.setText("jButton1");
+        jButton2.setBackground(new java.awt.Color(0, 255, 255));
+        jButton2.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 14)); // NOI18N
+        jButton2.setText("Customer");
+        jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton2MouseClicked(evt);
+            }
+        });
 
-        jButton3.setText("jButton1");
+        jButton3.setBackground(new java.awt.Color(0, 255, 255));
+        jButton3.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 14)); // NOI18N
+        jButton3.setText("Catagory");
+        jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton3MouseClicked(evt);
+            }
+        });
 
-        jButton4.setText("jButton1");
+        jButton4.setBackground(new java.awt.Color(0, 255, 255));
+        jButton4.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 14)); // NOI18N
+        jButton4.setText("Home");
+        jButton4.addAncestorListener(new javax.swing.event.AncestorListener() {
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+                jButton4AncestorMoved(evt);
+            }
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+            }
+        });
         jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton4MouseClicked(evt);
             }
         });
 
-        jButton5.setText("jButton1");
+        jButton5.setBackground(new java.awt.Color(0, 255, 255));
+        jButton5.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 14)); // NOI18N
+        jButton5.setText("Stock");
+        jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton5MouseClicked(evt);
+            }
+        });
 
-        jButton6.setText("jButton1");
+        jButton6.setBackground(new java.awt.Color(0, 255, 255));
+        jButton6.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 14)); // NOI18N
+        jButton6.setText("Sales");
+        jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton6MouseClicked(evt);
+            }
+        });
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
 
-        jButton7.setText("jButton1");
+        jButton7.setBackground(new java.awt.Color(0, 255, 255));
+        jButton7.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 14)); // NOI18N
+        jButton7.setText("Supply");
+        jButton7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton7MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -106,20 +176,20 @@ public class desing extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton5)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3)
-                    .addComponent(jButton4)
-                    .addComponent(jButton6)
-                    .addComponent(jButton7))
-                .addContainerGap(26, Short.MAX_VALUE))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(52, 52, 52)
                 .addComponent(jButton4)
                 .addGap(18, 18, 18)
                 .addComponent(jButton3)
@@ -131,49 +201,54 @@ public class desing extends javax.swing.JFrame {
                 .addComponent(jButton5)
                 .addGap(18, 18, 18)
                 .addComponent(jButton7)
-                .addGap(16, 16, 16)
+                .addGap(18, 18, 18)
                 .addComponent(jButton6)
-                .addContainerGap(117, Short.MAX_VALUE))
+                .addContainerGap(69, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, -1, 390));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 100, 390));
 
-        jLabel2.setText("jLabel2");
-        jTabbedPane2.addTab("tab1", jLabel2);
+        tabhome.setEnabled(false);
 
-        jTabbedPane1.addTab("tab1", jTabbedPane2);
+        jLabel2.setBackground(new java.awt.Color(255, 51, 51));
+        jLabel2.setText("Home");
+        jLabel2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jTabbedPane4.addTab("tab1", jLabel2);
 
-        jLabel3.setText("jLabel3");
-        jTabbedPane3.addTab("tab1", jLabel3);
+        tabhome.addTab("tab1", jTabbedPane4);
 
-        jTabbedPane1.addTab("tab2", jTabbedPane3);
+        jLabel3.setBackground(new java.awt.Color(255, 255, 51));
+        jLabel3.setText("Catagory");
+        jTabbedPane9.addTab("tab1", jLabel3);
 
-        jLabel4.setText("jLabel4");
-        jTabbedPane4.addTab("tab1", jLabel4);
+        tabhome.addTab("tab2", jTabbedPane9);
 
-        jTabbedPane1.addTab("tab3", jTabbedPane4);
+        jLabel4.setText("Customer");
+        jTabbedPane10.addTab("tab1", jLabel4);
 
-        jLabel5.setText("jLabel5");
-        jTabbedPane5.addTab("tab1", jLabel5);
+        tabhome.addTab("tab3", jTabbedPane10);
 
-        jTabbedPane1.addTab("tab4", jTabbedPane5);
+        jLabel5.setText("Product");
+        jTabbedPane11.addTab("tab1", jLabel5);
 
-        jLabel6.setText("jLabel6");
-        jTabbedPane6.addTab("tab1", jLabel6);
+        tabhome.addTab("tab4", jTabbedPane11);
 
-        jTabbedPane1.addTab("tab5", jTabbedPane6);
+        jLabel6.setText("Stock");
+        jTabbedPane12.addTab("tab1", jLabel6);
 
-        jLabel7.setText("jLabel7");
-        jTabbedPane7.addTab("tab1", jLabel7);
+        tabhome.addTab("tab5", jTabbedPane12);
 
-        jTabbedPane1.addTab("tab6", jTabbedPane7);
+        jLabel7.setText("Supply");
+        jTabbedPane13.addTab("tab1", jLabel7);
 
-        jLabel8.setText("jLabel8");
-        jTabbedPane8.addTab("tab1", jLabel8);
+        tabhome.addTab("tab6", jTabbedPane13);
 
-        jTabbedPane1.addTab("tab7", jTabbedPane8);
+        jLabel8.setText("Sales");
+        jTabbedPane14.addTab("tab1", jLabel8);
 
-        getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, 730, 390));
+        tabhome.addTab("tab7", jTabbedPane14);
+
+        getContentPane().add(tabhome, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 10, 740, 420));
 
         pack();
         setLocationRelativeTo(null);
@@ -183,11 +258,44 @@ public class desing extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton6ActionPerformed
 
+    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+tabhome.setSelectedIndex(3);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1MouseClicked
+
+    private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
+tabhome.setSelectedIndex(4);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5MouseClicked
+
+    private void jButton7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton7MouseClicked
+tabhome.setSelectedIndex(5);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7MouseClicked
+
+    private void jButton6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseClicked
+tabhome.setSelectedIndex(6);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton6MouseClicked
+
+    private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
+
+        tabhome.setSelectedIndex(2);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2MouseClicked
+
+    private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
+        tabhome.setSelectedIndex(1);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3MouseClicked
+
     private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked
- 
+        tabhome.setSelectedIndex(0);
 
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton4MouseClicked
+
+    private void jButton4AncestorMoved(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_jButton4AncestorMoved
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4AncestorMoved
 
     /**
      * @param args the command line arguments
@@ -232,6 +340,7 @@ public class desing extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
+    private javax.swing.JFrame jFrame1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -242,13 +351,13 @@ public class desing extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTabbedPane jTabbedPane2;
-    private javax.swing.JTabbedPane jTabbedPane3;
+    private javax.swing.JTabbedPane jTabbedPane10;
+    private javax.swing.JTabbedPane jTabbedPane11;
+    private javax.swing.JTabbedPane jTabbedPane12;
+    private javax.swing.JTabbedPane jTabbedPane13;
+    private javax.swing.JTabbedPane jTabbedPane14;
     private javax.swing.JTabbedPane jTabbedPane4;
-    private javax.swing.JTabbedPane jTabbedPane5;
-    private javax.swing.JTabbedPane jTabbedPane6;
-    private javax.swing.JTabbedPane jTabbedPane7;
-    private javax.swing.JTabbedPane jTabbedPane8;
+    private javax.swing.JTabbedPane jTabbedPane9;
+    private javax.swing.JTabbedPane tabhome;
     // End of variables declaration//GEN-END:variables
 }
