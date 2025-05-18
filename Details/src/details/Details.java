@@ -11,7 +11,7 @@ public class Details {
          Student student1 = new Student(19,"Rahmat" ,25);
 
  
-        student1.studentDetails();
+        student1.getStudentDetails();
         
         
     }

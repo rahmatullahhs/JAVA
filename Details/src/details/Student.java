@@ -34,9 +34,9 @@ public class Student extends person{
         System.out.println("student id:" + studentId);
     }
 
-    void studentDetails() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+//  public void studentDetails() {
+//       System.out.println("");
+//    }
     
     
 
